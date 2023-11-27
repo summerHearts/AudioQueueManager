@@ -14,4 +14,7 @@ DerivedData/
 #CocoaPods
 Pods/
 
+# macOS
+.DS_Store
+
 *.xcworkspace

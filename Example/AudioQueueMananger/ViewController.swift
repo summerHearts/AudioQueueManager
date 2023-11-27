@@ -10,6 +10,8 @@ import AudioQueueMananger
 
 class ViewController: UIViewController {
     
+    let audioQueueManager = AudioQueueManager()
+
     @IBAction func playQueueAudioAction(_ sender: Any) {
         
         audioQueueManager.removeAllAudio()
@@ -29,9 +31,6 @@ class ViewController: UIViewController {
         let item5 = AudioQueueItem(file: "6", priority: .normal)
         audioQueueManager.addToQueue(item5)
     }
-    
-    let audioQueueManager = AudioQueueManager()
-
 
     override func viewDidLoad() {
         super.viewDidLoad()

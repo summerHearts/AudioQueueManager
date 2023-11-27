@@ -1,0 +1,6 @@
+framework module AudioQueueMananger {
+  umbrella header "AudioQueueMananger-umbrella.h"
+
+  export *
+  module * { export * }
+}

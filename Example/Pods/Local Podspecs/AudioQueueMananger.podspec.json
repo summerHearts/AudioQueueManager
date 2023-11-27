@@ -1,0 +1,32 @@
+{
+  "name": "AudioQueueMananger",
+  "version": "0.1.0",
+  "summary": "A short description of AudioQueueMananger.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/summerhearts@163.com/AudioQueueMananger",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "summerhearts@163.com": "summerhearts@163.com"
+  },
+  "source": {
+    "git": "https://github.com/summerhearts@163.com/AudioQueueMananger.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "11.0"
+  },
+  "static_framework": true,
+  "swift_versions": "5.0",
+  "xcconfig": {
+    "ENABLE_BITCODE": "NO"
+  },
+  "source_files": "AudioQueueMananger/Classes/**/*",
+  "frameworks": [
+    "Foundation",
+    "AVFAudio"
+  ],
+  "swift_version": "5.0"
+}

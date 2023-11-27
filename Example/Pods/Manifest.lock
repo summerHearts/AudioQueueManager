@@ -1,0 +1,16 @@
+PODS:
+  - AudioQueueMananger (0.1.0)
+
+DEPENDENCIES:
+  - AudioQueueMananger (from `../`)
+
+EXTERNAL SOURCES:
+  AudioQueueMananger:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AudioQueueMananger: 0d2b4fbf18b7366a18676e942aa047b5211f898f
+
+PODFILE CHECKSUM: 9437ff0cd50eb813389852a7be3008b41dfd978f
+
+COCOAPODS: 1.13.0
